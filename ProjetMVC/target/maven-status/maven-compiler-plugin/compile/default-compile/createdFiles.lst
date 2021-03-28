@@ -1,0 +1,4 @@
+org\sid\projet_mvc\entities\Produit.class
+org\sid\projet_mvc\ProjetMvcApplication.class
+org\sid\projet_mvc\web\ProduitController.class
+org\sid\projet_mvc\dao\ProduitRepository.class

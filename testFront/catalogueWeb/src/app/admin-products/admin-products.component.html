@@ -1,0 +1,35 @@
+<div class="container">
+  <div class="card">
+    <div class="card-header bg-primary text-center"><h5>Gestion des produits</h5></div>
+    <div class="card-body">
+      <button class="btn btn-primary" (click)="onNewProd()">add</button>
+      <p></p>
+      <div *ngIf="mode == 'edit-prod'" class="col-md-6 col-md-offset-5">
+        <form #f="ngForm" (ngSubmit)="onUpdateProd(f.value)">
+          <div class="form-group">
+            <label>Name</label>
+            <input type="text" name="name" ngModel class="form-control" [(ngModel)]="currentProd.name">
+          </div>
+          <div class="form-group">
+            <label>Prix</label>
+            <input type="text" name="prix" ngModel class="form-control" [(ngModel)]="currentProd.prix">
+          </div>
+          <button class="btn btn-success" type="submit">Update</button>
+        </form>
+      </div>
+      <div *ngIf="mode == 'list'">
+        <table class="table table-striped">
+          <tr>
+            <th>Name</th><th>Prix</th>
+          </tr>
+          <tr *ngFor="let p of products?._embedded.products">
+            <td>{{p.name}}</td>
+            <td>{{p.prix}}</td>
+            <td><button class="btn btn-danger" (click)="onDeleteProd(p)">delete</button></td>
+            <td><button class="btn btn-info" (click)="onEditProd(p)">update</button></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

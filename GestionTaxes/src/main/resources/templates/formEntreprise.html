@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorator="template1"
+>
+<head>
+    <meta charset="UTF-8">
+    <title>Entreprise</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css" th:href="@{/css/style.css}">
+
+</head>
+<body>
+<div layout:fragment="content">
+    <div class="container col-md-4 col-md-offset-4">
+        <div class="card mt-2">
+            <card class="card-header bg-primary text-center"><h5>Ajout d'une entreprise</h5></card>
+            <card class="card-body">
+                <form th:action="@{saveEntreprise}" method="post">
+                    <div class="form-group">
+                        <label>Code:</label>
+                        <input class="form-control" type="text" name="code" th:value="${entreprise.code}"/>
+                        <span class="text-danger" th:errors="${entreprise.code}"></span>
+                    </div>
+                    <div class="form-group">
+                        <label>Nom:</label>
+                        <input class="form-control" type="text" name="nom" th:value="${entreprise.nom}"/>
+                        <span class="text-danger" th:errors="${entreprise.nom}"></span>
+                    </div>
+                    <div class="form-group">
+                        <label>Email:</label>
+                        <input class="form-control" type="text" name="email" th:value="${entreprise.email}"/>
+                        <span class="red" th:errors="${entreprise.email}"></span>
+                    </div>
+                    <div class="form-group">
+                        <label>Raison Sociale:</label>
+                        <input class="form-control" type="text" name="raisonSociale"
+                               th:value="${entreprise.raisonSociale}"/>
+                        <span class="text-danger" th:errors="${entreprise.raisonSociale}"></span>
+                    </div>
+                    <button class="btn btn-primary">Save</button>
+                </form>
+            </card>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand -->
+  <a class="navbar-brand" href="#">Catalogue</a>
+
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Home</a>
+    </li>
+    <!-- Dropdown -->
+    <li class="nav-item dropdown" *ngIf="isAuthenticated()">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Managed
+      </a>
+      <div class="dropdown-menu">
+        <a *ngIf="isAdmin()" class="dropdown-item" routerLink="/adminCategories">Gestion des categories</a>
+        <a *ngIf="isUser()" class="dropdown-item" routerLink="/adminProducts">Gestion des produits</a>
+        <a *ngIf="isAdmin()" class="dropdown-item" routerLink="/adminUsers">Gestion des utilisateurs</a>
+      </div>
+    </li>
+  </ul>
+  <div class="introduction">
+    <ul class="nav navbar-nav nav-justified" >
+      <li>
+        <button *ngIf="!isAuthenticated()" routerLink="/login" class="btn btn-primary navbar-btn">Login</button>
+        <button *ngIf="isAuthenticated()" (click)="logOut()"  class="btn btn-danger navbar-btn">Logout</button>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="row">
+  <div class="col-md-2">
+    <app-categories></app-categories>
+  </div>
+  <div class="col-md-9">
+    <router-outlet></router-outlet>
+  </div>
+</div>

@@ -1,0 +1,57 @@
+<div class="container">
+  <div class="card">
+    <div class="card-header bg-primary text-center"><h5>Gestion users</h5></div>
+    <div class="card-body">
+      <div class="col-md-6">
+        <button *ngIf="mode=='list'" class="btn btn-success" (click)="onNewUser()">Add</button>
+      </div>
+      <p></p>
+      <div *ngIf="mode == 'new-user'" class="container">
+        <form #f="ngForm" (ngSubmit)="onSaveUser(f.value)">
+          <div class="form-group">
+            <label>Name</label>
+            <input type="text" name="username" ngModel class="form-control">
+          </div>
+          <div class="form-group">
+            <label>Password</label>
+            <input type="password" name="password" ngModel class="form-control">
+          </div>
+          <div class="form-group">
+            <label>ConfirmedPassword</label>
+            <input type="password" name="confirmedPassword" ngModel class="form-control">
+          </div>
+          <button class="btn btn-success" type="submit">Save</button>
+        </form>
+      </div>
+
+      <div *ngIf="mode=='edit-user'" class="col-md-6 col-md-offset-5">
+        <form #f="ngForm" (ngSubmit)="onUpdateUser(f.value)">
+          <div class="form-group">
+            <label>Name</label>
+            <input type="text" name="name" ngModel class="form-control" [(ngModel)]="currentUser.username">
+          </div>
+
+          <button class="btn btn-success" type="submit">Update</button>
+        </form>
+      </div>
+
+      <div *ngIf="mode=='list'">
+        <table class="table table-striped">
+          <tr>
+            <th>Username</th><th>Actived</th>
+          </tr>
+          <tr *ngFor="let u of appUsers?._embedded.appUsers">
+            <td>{{u.username}}</td>
+            <td>{{u.actived}}</td>
+            <td>
+              <button class="btn-danger" (click)="onDeleteUser(u)">delete</button>
+            </td>
+            <td>
+              <button class="btn btn-info" (click)="onEditUser(u)">update</button>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

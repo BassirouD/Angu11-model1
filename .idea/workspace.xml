@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ef87603a-82db-45ce-b1b9-fa9d98ee84d2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/GestioCompteBanqueSpring/src/main/resources/templates/formClient.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GestioCompteBanqueSpring/src/main/resources/templates/formCompte.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngularJWTFront/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/AngularJWTFront/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngularJWTFront/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AngularJWTFront/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngularJWTFront/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AngularJWTFront/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngularJWTFront/src/app/admin-categories/admin-categories.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/AngularJWTFront/src/app/admin-categories/admin-categories.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngularJWTFront/src/app/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/AngularJWTFront/src/app/login/login.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestioCompteBanqueSpring/.idea/sonarlint/issuestore/0/2/027277d047daaf5f80b8a590401de2de868654e7" beforeDir="false" afterPath="$PROJECT_DIR$/GestioCompteBanqueSpring/.idea/sonarlint/issuestore/0/2/027277d047daaf5f80b8a590401de2de868654e7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestioCompteBanqueSpring/.idea/sonarlint/issuestore/2/2/2267effae8de4e6cdc58be4338531c25fdcdc477" beforeDir="false" afterPath="$PROJECT_DIR$/GestioCompteBanqueSpring/.idea/sonarlint/issuestore/2/2/2267effae8de4e6cdc58be4338531c25fdcdc477" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestioCompteBanqueSpring/.idea/sonarlint/issuestore/a/8/a8d636e003e2b33b33e7e82ccca336137298257a" beforeDir="false" afterPath="$PROJECT_DIR$/GestioCompteBanqueSpring/.idea/sonarlint/issuestore/a/8/a8d636e003e2b33b33e7e82ccca336137298257a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestioCompteBanqueSpring/.idea/sonarlint/issuestore/b/7/b765eee7ac40f1a45cde8943493b6b673f6f21d9" beforeDir="false" afterPath="$PROJECT_DIR$/GestioCompteBanqueSpring/.idea/sonarlint/issuestore/b/7/b765eee7ac40f1a45cde8943493b6b673f6f21d9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestioCompteBanqueSpring/.idea/sonarlint/issuestore/d/4/d4f298a69abb1eb184a301872c0dfdf865e173a6" beforeDir="false" afterPath="$PROJECT_DIR$/GestioCompteBanqueSpring/.idea/sonarlint/issuestore/d/4/d4f298a69abb1eb184a301872c0dfdf865e173a6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestioCompteBanqueSpring/.idea/sonarlint/issuestore/e/e/ee7b3ee3de282270ffb4ac6e910a6671519e6aaf" beforeDir="false" afterPath="$PROJECT_DIR$/GestioCompteBanqueSpring/.idea/sonarlint/issuestore/e/e/ee7b3ee3de282270ffb4ac6e910a6671519e6aaf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestioCompteBanqueSpring/.idea/sonarlint/issuestore/f/2/f2c5114c6dd82de9353e346d2b715f0c79adc492" beforeDir="false" afterPath="$PROJECT_DIR$/GestioCompteBanqueSpring/.idea/sonarlint/issuestore/f/2/f2c5114c6dd82de9353e346d2b715f0c79adc492" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestioCompteBanqueSpring/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/GestioCompteBanqueSpring/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestioCompteBanqueSpring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GestioCompteBanqueSpring/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestioCompteBanqueSpring/src/main/java/org/sid/MaBanqueApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/GestioCompteBanqueSpring/src/main/java/org/sid/MaBanqueApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestioCompteBanqueSpring/src/main/java/org/sid/dao/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/GestioCompteBanqueSpring/src/main/java/org/sid/dao/ClientRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestioCompteBanqueSpring/src/main/java/org/sid/dao/CompteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/GestioCompteBanqueSpring/src/main/java/org/sid/dao/CompteRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestioCompteBanqueSpring/src/main/java/org/sid/entities/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/GestioCompteBanqueSpring/src/main/java/org/sid/entities/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestioCompteBanqueSpring/src/main/java/org/sid/entities/Compte.java" beforeDir="false" afterPath="$PROJECT_DIR$/GestioCompteBanqueSpring/src/main/java/org/sid/entities/Compte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestioCompteBanqueSpring/src/main/java/org/sid/entities/CompteCourant.java" beforeDir="false" afterPath="$PROJECT_DIR$/GestioCompteBanqueSpring/src/main/java/org/sid/entities/CompteCourant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestioCompteBanqueSpring/src/main/java/org/sid/entities/CompteEpargne.java" beforeDir="false" afterPath="$PROJECT_DIR$/GestioCompteBanqueSpring/src/main/java/org/sid/entities/CompteEpargne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestioCompteBanqueSpring/src/main/java/org/sid/metier/BanqueMetierImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/GestioCompteBanqueSpring/src/main/java/org/sid/metier/BanqueMetierImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestioCompteBanqueSpring/src/main/java/org/sid/metier/IBanqueMetier.java" beforeDir="false" afterPath="$PROJECT_DIR$/GestioCompteBanqueSpring/src/main/java/org/sid/metier/IBanqueMetier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestioCompteBanqueSpring/src/main/java/org/sid/sec/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/GestioCompteBanqueSpring/src/main/java/org/sid/sec/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestioCompteBanqueSpring/src/main/java/org/sid/web/BanqueController.java" beforeDir="false" afterPath="$PROJECT_DIR$/GestioCompteBanqueSpring/src/main/java/org/sid/web/BanqueController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestioCompteBanqueSpring/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/GestioCompteBanqueSpring/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestioCompteBanqueSpring/src/main/resources/templates/comptes.html" beforeDir="false" afterPath="$PROJECT_DIR$/GestioCompteBanqueSpring/src/main/resources/templates/comptes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestioCompteBanqueSpring/src/main/resources/templates/template1.html" beforeDir="false" afterPath="$PROJECT_DIR$/GestioCompteBanqueSpring/src/main/resources/templates/template1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestioCompteBanqueSpring/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/GestioCompteBanqueSpring/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestioCompteBanqueSpring/target/classes/org/sid/MaBanqueApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/GestioCompteBanqueSpring/target/classes/org/sid/MaBanqueApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestioCompteBanqueSpring/target/classes/org/sid/dao/ClientRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/GestioCompteBanqueSpring/target/classes/org/sid/dao/ClientRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestioCompteBanqueSpring/target/classes/org/sid/dao/CompteRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/GestioCompteBanqueSpring/target/classes/org/sid/dao/CompteRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestioCompteBanqueSpring/target/classes/org/sid/entities/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/GestioCompteBanqueSpring/target/classes/org/sid/entities/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestioCompteBanqueSpring/target/classes/org/sid/entities/Compte.class" beforeDir="false" afterPath="$PROJECT_DIR$/GestioCompteBanqueSpring/target/classes/org/sid/entities/Compte.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestioCompteBanqueSpring/target/classes/org/sid/entities/CompteCourant.class" beforeDir="false" afterPath="$PROJECT_DIR$/GestioCompteBanqueSpring/target/classes/org/sid/entities/CompteCourant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestioCompteBanqueSpring/target/classes/org/sid/entities/CompteEpargne.class" beforeDir="false" afterPath="$PROJECT_DIR$/GestioCompteBanqueSpring/target/classes/org/sid/entities/CompteEpargne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestioCompteBanqueSpring/target/classes/org/sid/entities/Operation.class" beforeDir="false" afterPath="$PROJECT_DIR$/GestioCompteBanqueSpring/target/classes/org/sid/entities/Operation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestioCompteBanqueSpring/target/classes/org/sid/metier/BanqueMetierImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/GestioCompteBanqueSpring/target/classes/org/sid/metier/BanqueMetierImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestioCompteBanqueSpring/target/classes/org/sid/metier/IBanqueMetier.class" beforeDir="false" afterPath="$PROJECT_DIR$/GestioCompteBanqueSpring/target/classes/org/sid/metier/IBanqueMetier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestioCompteBanqueSpring/target/classes/org/sid/web/BanqueController.class" beforeDir="false" afterPath="$PROJECT_DIR$/GestioCompteBanqueSpring/target/classes/org/sid/web/BanqueController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestioCompteBanqueSpring/target/classes/templates/comptes.html" beforeDir="false" afterPath="$PROJECT_DIR$/GestioCompteBanqueSpring/target/classes/templates/comptes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestioCompteBanqueSpring/target/classes/templates/template1.html" beforeDir="false" afterPath="$PROJECT_DIR$/GestioCompteBanqueSpring/target/classes/templates/template1.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1qDCxiSauMJXWsaXm5FyExXV5em" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef87603a-82db-45ce-b1b9-fa9d98ee84d2" name="Default Changelist" comment="" />
+      <created>1616605024582</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616605024582</updated>
+      <workItem from="1616605027103" duration="128000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1616605151591">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1616605151591" />
+    <state x="360" y="73" key="new project wizard" timestamp="1616605154076">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="360" y="73" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1616605154076" />
+  </component>
+</project>

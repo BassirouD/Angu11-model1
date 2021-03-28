@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorator="template1"
+>
+<head>
+    <meta charset="UTF-8">
+    <title>Entreprise</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/bootstrap.css" th:href="@{/css/bootstrap.css}">
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css" th:href="@{/css/style.css}">
+
+</head>
+<body>
+<div layout:fragment="content">
+    <div class="container">
+        <div class="card mt-2">
+            <card class="card-header bg-primary text-center"><h5>Liste des entreprises</h5></card>
+            <card class="card-body">
+                <div class="container">
+                    <form th:action="@{/taxes}" method="get" class="navbar-form navbar-left" id="myForm">
+                        <div class="form-group">
+                            <div class="row">
+                                <label>Entreprise:</label>
+                                <select class="form-select" aria-label="Default select example" name="code"
+                                        onchange="document.getElementById('myForm').submit()">
+                                    <option th:each="e:${entreprises}" th:text="${e.nom}" th:value="${e.code}"></option>
+                                </select>
+                                <button type="submit" class="btn  btn-primary col-2">Chercher</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <table class="table table-striped mt-4">
+                    <tr>
+                        <th>ID</th>
+                        <th>Titre</th>
+                        <th>Date</th>
+                        <th>Montant</th>
+                        <th>Type</th>
+                    </tr>
+                    <tr th:each="t:${taxes}">
+                        <td th:text="${t.id}"></td>
+                        <td th:text="${t.titre}"></td>
+                        <td th:text="${t.dateTaxe}"></td>
+                        <td th:text="${t.montant}"></td>
+                        <td th:text="${t.class.simpleName}"></td>
+                    </tr>
+                </table>
+                <div>
+                    <ul class="pagination">
+                        <li th:class="${status.index==pageCourante} ? 'page-item active': ''" class="page-item"
+                            th:each="p, status:${pages}">
+                            <a th:href="@{/entreprises(page=${status.index}, motCle=${motCle})}" class="page-link"
+                               th:text="${status.index}"></a>
+                        </li>
+                    </ul>
+                </div>
+            </card>
+        </div>
+    </div>
+</div>
+</body>
+</html>

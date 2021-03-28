@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorator="template1"
+>
+<head>
+    <meta charset="UTF-8">
+    <title>Entreprise</title>
+</head>
+<body>
+<div layout:fragment="content">
+    <div class="container">
+        <div class="card mt-2">
+            <card class="card-header bg-primary text-center"><h4>Liste des entreprises</h4></card>
+            <card class="card-body">
+                <div class="container">
+                    <form th:action="@{/entreprises}" method="get" class="navbar-form navbar-left">
+                        <div class="form-group">
+                            <div class="row">
+                                <input type="text" name="motCle" class="form-control w-25 col-3" placeholder="Search">
+                                <button type="submit" class="btn btn-primary col-2">Chercher</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <table class="table table-striped mt-4">
+                    <tr>
+                        <th>Code</th>
+                        <th>Nom</th>
+                        <th>Raison Social</th>
+                        <th>Email</th>
+                    </tr>
+                    <tr th:each="e:${entreprisePage}">
+                        <td th:text="${e.code}"></td>
+                        <td th:text="${e.nom}"></td>
+                        <td th:text="${e.raisonSociale}"></td>
+                        <td th:text="${e.email}"></td>
+                        <td>
+                            <a th:href="@{/taxes(code=${e.code})}">Taxes</a>
+                        </td>
+                    </tr>
+                </table>
+                <div>
+                    <ul class="pagination">
+                        <li th:class="${status.index==pageCourante} ? 'page-item active': ''" class="page-item"
+                            th:each="p, status:${pages}">
+                            <a th:href="@{/entreprises(page=${status.index}, motCle=${motCle})}" class="page-link"
+                               th:text="${status.index}"></a>
+                        </li>
+                    </ul>
+                </div>
+            </card>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+.red {
+    color: red;
+}
+
+.spacer {
+    margin-top: 30px;
+}
+
+footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+}
+
+.card-header-warning {
+    background: #56baed;
+}
+
+.center_div {
+    margin: 0 auto;
+    width: 80% /* value of your choice which suits your alignment */
+}

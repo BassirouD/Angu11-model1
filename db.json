@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Computer",
+      "price": 4300,
+      "quantity": 600,
+      "selected": false,
+      "available": true
+    },
+    {
+      "id": 2,
+      "name": "Printer",
+      "price": 6990,
+      "quantity": 450,
+      "selected": true,
+      "available": true
+    },
+    {
+      "id": 3,
+      "name": "Writer",
+      "price": 6990,
+      "quantity": 450,
+      "selected": false,
+      "available": false
+    },
+    {
+      "id": 4,
+      "name": "Home",
+      "price": 10000000,
+      "quantity": 965,
+      "selected": true,
+      "available": false
+    },
+    {
+      "id": 5,
+      "name": "Table100",
+      "price": "1000",
+      "quantity": "1000",
+      "selected": true,
+      "available": true
+    },
+    {
+      "id": 6,
+      "name": "Pain",
+      "price": 972,
+      "quantity": 100,
+      "selected": false,
+      "available": true
+    },
+    {
+      "name": "Test",
+      "price": "100",
+      "quantity": "33",
+      "selected": true,
+      "available": true,
+      "id": 7
+    }
+  ]
+}

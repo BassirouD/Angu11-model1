@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {ActivatedRoute} from '@angular/router';
+import {ActivatedRoute, Router} from '@angular/router';
 import {ProductsService} from '../../services/products.service';
 import {FormBuilder, FormGroup, Validators} from '@angular/forms';
 
@@ -14,7 +14,10 @@ export class ProductEditComponent implements OnInit {
   productFormGroup: FormGroup;
   submitted: boolean = false;
 
-  constructor(private activatedRoute: ActivatedRoute, private prodService: ProductsService, private formBuilder: FormBuilder) {
+  constructor(private activatedRoute: ActivatedRoute,
+              private prodService: ProductsService,
+              private formBuilder: FormBuilder,
+              private router: Router) {
     this.productId = activatedRoute.snapshot.params.id;
   }
 
@@ -36,6 +39,7 @@ export class ProductEditComponent implements OnInit {
     this.prodService.updateProduct(this.productFormGroup.value)
       .subscribe(data=>{
         alert('success product update!!');
+        this.router.navigateByUrl('/products');
       })
   }
 }

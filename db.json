@@ -21,40 +21,32 @@
       "name": "Writer",
       "price": 6990,
       "quantity": 450,
-      "selected": false,
+      "selected": true,
       "available": false
     },
     {
       "id": 4,
       "name": "Home",
-      "price": 10000000,
+      "price": "10000",
       "quantity": 965,
       "selected": true,
       "available": false
     },
     {
       "id": 5,
-      "name": "Table100",
-      "price": "1000",
+      "name": "Table",
+      "price": "962",
       "quantity": "1000",
       "selected": true,
       "available": true
     },
     {
       "id": 6,
-      "name": "Pain",
+      "name": "Pain100",
       "price": 972,
       "quantity": 100,
       "selected": false,
       "available": true
-    },
-    {
-      "name": "Test",
-      "price": "100",
-      "quantity": "33",
-      "selected": true,
-      "available": true,
-      "id": 7
     }
   ]
 }

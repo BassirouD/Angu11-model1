@@ -15,7 +15,6 @@
         </tr>
         <!--Le async c'est pour dire que c'est un observable-->
         <app-product-item [product]="p"
-                          (eventEmetter)="onActionEvent($event)"
                           *ngFor="let p of result.data"
                           style="display: contents">
         </app-product-item>

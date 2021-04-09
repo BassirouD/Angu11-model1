@@ -1,0 +1,9 @@
+npm install --save @ngrx/store
+npm install --save @ngrx/effects
+npm install --save @ngrx/store-devtools
+
+--Apres installation on ajoute:
+    StoreModule.forRoot({}),
+    EffectsModule.forRoot([]),
+    StoreDevtoolsModule.instrument()
+dans le import module

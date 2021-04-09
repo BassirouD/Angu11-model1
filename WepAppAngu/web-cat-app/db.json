@@ -13,14 +13,22 @@
       "name": "Printer",
       "price": 6990,
       "quantity": 450,
-      "selected": true,
+      "selected": false,
       "available": true
     },
     {
       "id": 3,
-      "name": "Smartphone",
-      "price": 1200,
-      "quantity": 300,
+      "name": "Writer1000",
+      "price": 6990,
+      "quantity": 450,
+      "selected": true,
+      "available": false
+    },
+    {
+      "id": 6,
+      "name": "Pain",
+      "price": 972,
+      "quantity": 100,
       "selected": false,
       "available": true
     }

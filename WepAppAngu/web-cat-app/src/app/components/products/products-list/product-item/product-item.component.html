@@ -1,1 +1,24 @@
-<p>product-item works!</p>
+<tr *ngIf="product">
+  <td>{{product.id}}</td>
+  <td>{{product.name}}</td>
+  <td>{{product.price}}</td>
+  <td>{{product.quantity}}</td>
+  <td><span [ngClass]="product.selected? 'fa fa-heart text-success': 'fa fa-heart text-danger'"></span></td>
+  <td><span [ngClass]="product.available?'fa fa-check-circle text-success': 'fa fa-spinner fa-spin text-danger'"></span></td>
+  <td>
+    <button [ngClass]="product.selected? 'btn-success': 'btn-danger'" (click)="onSelect(product)" class="btn btn-sm">
+      <span *ngIf="product.selected">Unselect</span>
+      <span *ngIf="!product.selected">Select</span>
+    </button>
+  </td>
+  <td>
+    <button class="btn btn-danger" (click)="onDelete(product)">
+      <span class="fa fa-trash-o"></span>
+    </button>
+  </td>
+  <td>
+    <button class="btn btn-info" (click)="onEdit(product)">
+      <span class="fa fa-edit"></span>
+    </button>
+  </td>
+</tr>

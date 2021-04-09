@@ -16,10 +16,10 @@
         </tr>
         </thead>
         <tbody>
-        <tr th:each="p:${products}">
-            <td th:text="${p.id}"></td>
-            <td th:text="${p.name}"></td>
-            <td th:text="${p.price}"></td>
+        <tr th:each="s:${suppliers}">
+            <td th:text="${s.id}"></td>
+            <td th:text="${s.name}"></td>
+            <td th:text="${s.email}"></td>
         </tr>
         </tbody>
     </table>
